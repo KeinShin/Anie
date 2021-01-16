@@ -18,6 +18,8 @@ if ENV:
         # Send .get_id in any group to fill this value.
         PRIVATE_GROUP_ID = int(os.environ.get("PRIVATE_GROUP_ID", -1001422419437))
         # Send .get_id in any channel to fill this value. ReQuired for a @Godhackerzuserbot inspiration to work!
+        # Pm
+        PM_DATA = os.environ.get("PM_DATA", "ENABLE")
         PRIVATE_GROUP_BOT_API_ID = int(
             os.environ.get("PRIVATE_CHANNEL_BOT_API_ID", -1001422419437)
         )
